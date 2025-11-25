@@ -1,0 +1,33 @@
+tags:
+  - Resultados
+parameters:
+  - in: body
+    name: resultado
+    required: true
+    schema:
+      type: object
+      required:
+        - aluno_id
+        - avaliacao_id
+        - nota
+        - data_aplicacao
+      properties:
+        aluno_id:
+          type: string
+          example: "1"
+        avaliacao_id:
+          type: string
+          example: "1"
+        nota:
+          type: string
+          example: "8.5"
+        data_aplicacao:
+          type: string
+          example: "25/11/2023"
+responses:
+  201:
+    description: Resultado registrado
+  400:
+    description: Dados inválidos
+  500:
+    description: Erro interno

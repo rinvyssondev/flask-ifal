@@ -1,0 +1,33 @@
+tags:
+  - Cursos
+parameters:
+  - in: body
+    name: curso
+    required: true
+    schema:
+      type: object
+      required:
+        - nome
+        - descricao
+        - carga_horaria
+        - professor_id
+      properties:
+        nome:
+          type: string
+          example: "Programação Python"
+        descricao:
+          type: string
+          example: "Curso de Python básico ao avançado"
+        carga_horaria:
+          type: string
+          example: "120"
+        professor_id:
+          type: string
+          example: "1"
+responses:
+  201:
+    description: Curso criado
+  400:
+    description: Dados inválidos
+  500:
+    description: Erro interno

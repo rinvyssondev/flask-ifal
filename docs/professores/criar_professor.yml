@@ -1,0 +1,26 @@
+tags:
+  - Professores
+parameters:
+  - in: body
+    name: professor
+    description: Dados do professor
+    required: true
+    schema:
+      type: object
+      required:
+        - nome
+        - email
+      properties:
+        nome:
+          type: string
+          example: "Maria Santos"
+        email:
+          type: string
+          example: "maria@universidade.com"
+responses:
+  201:
+    description: Professor cadastrado
+  400:
+    description: Dados inválidos
+  500:
+    description: Erro interno

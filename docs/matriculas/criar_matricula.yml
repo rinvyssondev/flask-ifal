@@ -1,0 +1,30 @@
+tags:
+  - Matrículas
+parameters:
+  - in: body
+    name: matricula
+    required: true
+    schema:
+      type: object
+      required:
+        - aluno_id
+        - curso_id
+        - status
+      properties:
+        aluno_id:
+          type: string
+          example: "1"
+        curso_id:
+          type: string
+          example: "1"
+        status:
+          type: string
+          example: "ativa"
+          enum: ["ativa", "inativa", "concluída"]
+responses:
+  201:
+    description: Matrícula criada
+  400:
+    description: Dados inválidos
+  500:
+    description: Erro interno

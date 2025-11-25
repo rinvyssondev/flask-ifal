@@ -1,0 +1,15 @@
+tags:
+  - Alunos
+responses:
+  200:
+    description: Lista de alunos retornada com sucesso
+    examples:
+      application/json:
+        - id: "1"
+          nome: "João Silva"
+          email: "joao@email.com"
+          data_nascimento: "15/05/1990"
+  404:
+    description: Arquivo de alunos não encontrado
+  500:
+    description: Erro interno do servidor

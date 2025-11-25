@@ -1,0 +1,29 @@
+tags:
+  - Avaliações
+parameters:
+  - in: body
+    name: avaliacao
+    required: true
+    schema:
+      type: object
+      required:
+        - curso_id
+        - titulo
+        - nota_maxima
+      properties:
+        curso_id:
+          type: string
+          example: "1"
+        titulo:
+          type: string
+          example: "Prova Final"
+        nota_maxima:
+          type: string
+          example: "10.0"
+responses:
+  201:
+    description: Avaliação criada
+  400:
+    description: Dados inválidos
+  500:
+    description: Erro interno

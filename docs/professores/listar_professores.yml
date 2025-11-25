@@ -1,0 +1,14 @@
+tags:
+  - Professores
+responses:
+  200:
+    description: Lista de professores
+    examples:
+      application/json:
+        - id: "1"
+          nome: "Maria Santos"
+          email: "maria@universidade.com"
+  404:
+    description: Arquivo não encontrado
+  500:
+    description: Erro interno

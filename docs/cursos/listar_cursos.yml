@@ -1,0 +1,9 @@
+tags:
+  - Cursos
+responses:
+  200:
+    description: Lista de cursos
+  404:
+    description: Arquivo não encontrado
+  500:
+    description: Erro interno

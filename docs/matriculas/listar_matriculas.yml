@@ -1,0 +1,9 @@
+tags:
+  - Matrículas
+responses:
+  200:
+    description: Lista de matrículas
+  404:
+    description: Arquivo não encontrado
+  500:
+    description: Erro interno

@@ -1,0 +1,9 @@
+tags:
+  - Avaliações
+responses:
+  200:
+    description: Lista de avaliações
+  404:
+    description: Arquivo não encontrado
+  500:
+    description: Erro interno
