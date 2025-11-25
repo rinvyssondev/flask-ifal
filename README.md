@@ -24,9 +24,9 @@ Permite o gerenciamento completo de:
 
 ---
 
-## 📦 Estrutura do Projeto
+## Estrutura do Projeto
 
-/
+```text
 ├── app.py
 ├── swagger_config.py
 ├── utils.py
@@ -36,24 +36,24 @@ Permite o gerenciamento completo de:
 │   ├── cursos.csv
 │   ├── matriculas.csv
 │   ├── avaliacoes.csv
-│   ├── resultados.csv
+│   └── resultados.csv
 ├── docs/
 │   ├── alunos/
 │   │   ├── listar_alunos.yml
-│   │   ├── criar_aluno.yml
+│   │   └── criar_aluno.yml
 │   ├── professores/
 │   │   ├── listar_professores.yml
-│   │   ├── criar_professor.yml
+│   │   └── criar_professor.yml
 │   ├── cursos/
 │   │   ├── listar_cursos.yml
-│   │   ├── criar_curso.yml
+│   │   └── criar_curso.yml
 │   ├── matriculas/
 │   │   ├── listar_matriculas.yml
-│   │   ├── criar_matriculas.yml
+│   │   └── criar_matriculas.yml
 │   ├── avaliacoes/
 │   │   ├── listar_avaliacoes.yml
-│   │   ├── criar_avaliacao.yml
+│   │   └── criar_avaliacao.yml
 │   └── resultados/
 │       ├── listar_resultados.yml
-│       ├── criar_resultado.yml
+│       └── criar_resultado.yml
 └── README.md
