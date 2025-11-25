@@ -31,29 +31,29 @@ Permite o gerenciamento completo de:
 ├── swagger_config.py
 ├── utils.py
 ├── data/
-|   ├── alunos.csv
-|   ├── professores.csv
-|   ├── cursos.csv
-|   ├── matriculas.csv
-|   ├── avaliacoes.csv
-|   ├── resultados.csv
+│   ├── alunos.csv
+│   ├── professores.csv
+│   ├── cursos.csv
+│   ├── matriculas.csv
+│   ├── avaliacoes.csv
+│   ├── resultados.csv
 ├── docs/
-│ ├── alunos/
-│   ├── listar_alunos.yml
-│   ├── criar_aluno.yml
-│ ├── professores/
-|   ├── listar_professores.yml
-│   ├── criar_professor.yml
-│ ├── cursos/
-|   ├── listar_cursos.yml
-│   ├── criar_curso.yml
-│ ├── matriculas/
-|   ├── listar_matriculas.yml
-│   ├── criar_matriculas.yml
-│ ├── avaliacoes/
-|   ├── listar_avaliacoes.yml
-│   ├── criar_avaliacao.yml
-│ └── resultados/
-|   ├── listar_resultados.yml
-│   ├── criar_resultado.yml
+│   ├── alunos/
+│   │   ├── listar_alunos.yml
+│   │   ├── criar_aluno.yml
+│   ├── professores/
+│   │   ├── listar_professores.yml
+│   │   ├── criar_professor.yml
+│   ├── cursos/
+│   │   ├── listar_cursos.yml
+│   │   ├── criar_curso.yml
+│   ├── matriculas/
+│   │   ├── listar_matriculas.yml
+│   │   ├── criar_matriculas.yml
+│   ├── avaliacoes/
+│   │   ├── listar_avaliacoes.yml
+│   │   ├── criar_avaliacao.yml
+│   └── resultados/
+│       ├── listar_resultados.yml
+│       ├── criar_resultado.yml
 └── README.md
