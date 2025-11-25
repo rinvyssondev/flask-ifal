@@ -27,6 +27,15 @@ parameters:
 responses:
   201:
     description: Curso criado
+    example:
+      application/json:
+        message: "Curso criado com sucesso!"
+        data:
+          curso_id: "1"
+          nome: "Programação Python"
+          descricao: "Curso de Python básico ao avançado"
+          carga_horaria: "120"
+          professor_id: 1
   400:
     description: Dados inválidos
   500:

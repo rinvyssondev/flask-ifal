@@ -8,6 +8,9 @@ responses:
         - id: "1"
           nome: "Maria Santos"
           email: "maria@universidade.com"
+        - id: "2"
+          nome: "João Pereira"
+          email: "joao@universidade.com"
   404:
     description: Arquivo não encontrado
   500:

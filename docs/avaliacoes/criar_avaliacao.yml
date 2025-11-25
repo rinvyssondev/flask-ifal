@@ -23,6 +23,14 @@ parameters:
 responses:
   201:
     description: Avaliação criada
+    examples:
+      application/json:
+        message: "Avaliação criada com sucesso!"
+        data:
+          id: "1"
+          curso_id: "1"
+          titulo: "Prova Final"
+          nota_maxima: "10.0"
   400:
     description: Dados inválidos
   500:

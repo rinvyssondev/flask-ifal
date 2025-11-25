@@ -3,6 +3,16 @@ tags:
 responses:
   200:
     description: Lista de avaliações
+    examples:
+      application/json:
+        - id: "1"
+          curso_id: "1"
+          titulo: "Prova Final"
+          nota_maxima: "10.0"
+        - id: "2"
+          curso_id: "1"
+          titulo: "Trabalho Prático"
+          nota_maxima: "5.0"
   404:
     description: Arquivo não encontrado
   500:

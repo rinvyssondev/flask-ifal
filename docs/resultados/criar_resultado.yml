@@ -27,6 +27,15 @@ parameters:
 responses:
   201:
     description: Resultado registrado
+    examples:
+      application/json:
+        message: "Resultado registrado!"
+        data:
+          id: "1"
+          aluno_id: "1"
+          avaliacao_id: "1"
+          nota: "8.5"
+          data_aplicacao: "25/11/2023"
   400:
     description: Dados inválidos
   500:

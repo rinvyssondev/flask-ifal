@@ -20,6 +20,13 @@ parameters:
 responses:
   201:
     description: Professor cadastrado
+    examples:
+      application/json:
+        message: "Professor cadastrado com sucesso!"
+        data:
+          id: "1"
+          nome: "Maria Santos"
+          email: "maria@universidade.com"
   400:
     description: Dados inválidos
   500:

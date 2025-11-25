@@ -3,6 +3,13 @@ tags:
 responses:
   200:
     description: Lista de cursos
+    examples:
+      application/json:
+        - curso_id: "1"
+          nome: "Programação Python"
+          descricao: "Curso de Python básico ao avançado"
+          carga_horaria: "120"
+          professor_id: "1"
   404:
     description: Arquivo não encontrado
   500:

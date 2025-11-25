@@ -3,6 +3,16 @@ tags:
 responses:
   200:
     description: Lista de matrículas
+    examples:
+      application/json:
+        - id: "1"
+          aluno_id: "1"
+          curso_id: "1"
+          status: "ativa"
+        - id: "2"
+          aluno_id: "2"
+          curso_id: "1"
+          status: "concluída"
   404:
     description: Arquivo não encontrado
   500:
