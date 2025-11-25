@@ -19,6 +19,7 @@ Permite o gerenciamento completo de:
 - **CSV para persistência de dados**
 - Estrutura organizada em:
   - `docs/` → documentação Swagger (YAML)
+  - `data/` → dados salvos no csv
   - `utils/` → funções utilitárias
   - `swagger_config.py` → configuração global da documentação
 
